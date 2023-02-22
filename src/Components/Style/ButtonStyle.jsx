@@ -1,10 +1,9 @@
 import styled, { css} from "styled-components";
-import check from 'public./image./check.png'
+import check from "../assets/check.jpg"
 
 const Button = styled.button`
 ${props => {
-    console.log(props.size)
-  let width, height;
+  let width, height, image;
   switch (props.size) {
     case 'big':
       width = '250px';
@@ -21,11 +20,14 @@ ${props => {
     default:
       width = '150px';
       height = '100px';
+      image = `url(/check.png)`;
+      console.log(image)
       break;
   }
   return css`
     width: ${width};
     height: ${height};
+    background-image: ${image};
   `;
 }}
 border: 3px solid #ffd700;

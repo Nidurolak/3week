@@ -4,6 +4,7 @@ import '../App.css';
 import { Button } from '../Components/Style/ButtonStyle';
 import { MainContainer, MainTitle,GominBox } from '../Components/Style/MainContainer';
 import { Headertitle } from '../Components/Style/HeaderStyle';
+import CustomButton from '../Components/Button';
 
 function Main (){
 
@@ -16,6 +17,9 @@ function Main (){
                 </GominBox>
             <GominBox>
                 <MainTitle textcolor = 'gold'>개의 고민이 있습니다(보러가기)</MainTitle></GominBox>
+        <CustomButton></CustomButton>
+        
+        
         </MainContainer>
     </>)
 }
