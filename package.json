@@ -20,13 +20,13 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.0"
   },
+
   "scripts": {
-    "start": "node server",
-    "start:dev": "cross-env NODE_PATH=src react-scripts start",
-    "build": "cross-env NODE_PATH=src react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "cross-env NODE_PATH=src npm run build"
+    "deploy": "npm run build && aws s3 sync build/ s3://mydiaryteg"
   },
 
   "eslintConfig": {

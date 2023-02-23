@@ -12,7 +12,6 @@ import {GominBox, GominContainer, GominListContainer, GominBoxTop, GominBoxMiddl
 function ShowList(props) {
 
     const LinkId = `/Detail/${props.id}`
-    console.log(LinkId)
     return (<>
     <Link to = {LinkId} style={{ textDecoration: "none" }}>
             <GominBox>
