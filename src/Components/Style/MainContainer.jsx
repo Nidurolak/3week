@@ -21,7 +21,7 @@ text-align: center;
 font-size: 35px;
 `
 
-const GominBox = styled.button`
+const PageBox = styled.div`
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -35,4 +35,4 @@ border-radius: 5px;
 line-height: 15px;
 `
 
-export { MainContainer, MainTitle,GominBox };
+export { MainContainer, MainTitle,PageBox };
