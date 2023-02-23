@@ -32,7 +32,7 @@ function Main() {
                 </Link>
                 <Link to={`/GominList`} style={{ textDecoration: "none" }}>
             <CustomButton size = 'big' bg = 'rgb(80, 45, 0)'>
-                <MainTitle textcolor='gold'>${datalength}개의 고민이 있습니다(보러가기)</MainTitle>
+                <MainTitle textcolor='gold'>{datalength}개의 고민이 있습니다(보러가기)</MainTitle>
                 <CustomButton size="icon" image="/check.jpg" bg='gold' />
             </CustomButton>
                 </Link>

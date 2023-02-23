@@ -6,8 +6,8 @@ function HeadBar(){
     return(<>
         <Header>
           <Link to={'/'}>
-          </Link>
         <CustomButton size = "icon" image = "/house.png"></CustomButton>
+          </Link>
           <Headertitle textcolor = 'gold'>고민을 적어보는 공간</Headertitle>
         </Header>
     </>)
