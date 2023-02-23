@@ -13,7 +13,7 @@ function ShowList(props) {
 
     const LinkId = `/Detail/${props.id}`
     return (<>
-    <Link to = {LinkId} style={{ textDecoration: "none" }}>
+    <Link to = {LinkId} style={{ textDecoration: "none" , display:'block'}}>
             <GominBox>
                 <GominBoxTop>
                     <h2>{props.title}</h2>

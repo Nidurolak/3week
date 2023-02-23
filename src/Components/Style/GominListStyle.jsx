@@ -12,12 +12,11 @@ justify-content: center;
 align-items: center;
     flex-wrap: wrap;
     gap: 12px;
-    width: 90%;
+    width: 100%;
 `
 
 const GominBox = styled.div`
-max-width: 300px;
-width: 50%;
+width: 300px;
 padding: 10px 10px 10px 10px;
 color: gold;
 border: 4px solid gold;
